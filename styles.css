@@ -2,16 +2,35 @@
 
 body {
     font-family: NeueCorp, sans-serif;
+    margin: 0;
 }
 
-.centered-image{
+.hero-container{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    flex: 0 0 auto;
+    padding-top: 10px;
+    display: flex;
+}
+
+.mid{
+    flex: 1 1 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("imgs/dog.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
 }
 
-#dog {
-    height: 70vh;
+.bot {
+    flex: 0 0 auto;
 }
 
 #heading {
@@ -21,9 +40,6 @@ body {
     margin: 0;
 }
 
-.three-col{
-    display: flex;
-}
 
 .col{
     flex: 1;
