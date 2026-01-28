@@ -16,6 +16,7 @@ body {
     flex: 0 0 auto;
     padding-top: 10px;
     display: flex;
+    gap: 8px;
 }
 
 .mid{
@@ -34,9 +35,9 @@ body {
 }
 
 #heading {
-    font-size: 15.5vw;
+    font-size: 16.1vw;
     text-align: center;
-    line-height: 120%;
+    line-height: 100%;
     margin: 0;
 }
 
@@ -46,4 +47,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .top {
+      flex-direction: column; /* mobile */
+    }
 }
