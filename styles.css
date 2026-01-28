@@ -55,4 +55,8 @@ body {
     .top {
       flex-direction: column; /* mobile */
     }
+
+    #heading {
+        font-size: 14vw;
+    }
 }
