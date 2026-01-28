@@ -1,0 +1,33 @@
+@font-face { font-family: NeueCorp; src: url('PPNeueCorp-NormalMedium.otf'); } 
+
+body {
+    font-family: NeueCorp, sans-serif;
+}
+
+.centered-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dog {
+    height: 70vh;
+}
+
+#heading {
+    font-size: 15.5vw;
+    text-align: center;
+    line-height: 120%;
+    margin: 0;
+}
+
+.three-col{
+    display: flex;
+}
+
+.col{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
