@@ -57,6 +57,7 @@ body {
     }
 
     #heading {
-        font-size: 14vw;
+        font-size: 25vw;
+        line-height: 80%;
     }
 }
