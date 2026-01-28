@@ -1,4 +1,4 @@
-@font-face { font-family: NeueCorp; src: url('PPNeueCorp-NormalMedium.otf'); } 
+@font-face { font-family: NeueCorp; src: url('fonts/PPNeueCorp-NormalMedium.otf'); } 
 
 body {
     font-family: NeueCorp, sans-serif;
@@ -17,6 +17,7 @@ body {
     padding-top: 10px;
     display: flex;
     gap: 8px;
+    font-size: 14px;
 }
 
 .mid{
