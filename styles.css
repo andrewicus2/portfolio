@@ -4,17 +4,18 @@ body {
     font-family: NeueCorp, sans-serif;
     margin: 0;
     font-weight: 100;
-    padding: 0px 16px;
-    max-width: 1000px;
+    padding: 0px 32px;
     margin: auto;
     background-color: #ffffff;
 }
 
 h1 {
     font-weight: 100;
+    font-size: 16px;
 }
 h2 {
     font-weight: 100;
+    margin: 0;
 }
 h3 {
     font-weight: 100;
@@ -95,6 +96,10 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .companies {
     width: 100%;
     display: flex;
@@ -144,10 +149,6 @@ a {
     justify-content: center;
 }
 
-main {
-    max-width: 1000px;
-}
-
 .project-main-video {
     width: 100%;
     border-radius: 24px;
@@ -172,14 +173,42 @@ footer {
 
 .footer-logo {
     width: 100%;
-    max-width: 900px;
 }
 
 .full-width-img {
-    width: 100%;
-    height: auto;
+    max-width: 900px; 
     border-radius: 12px;
     margin-bottom: 64px;
     padding: 24px;
     background-color: #f8f8f8
+}
+
+.simple-proj-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 16px;
+    flex: 0 0 250px;
+}
+
+.project-body{
+    flex: 1 1 auto;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    width: 500px;
+    z-index: -1;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
 }
