@@ -5,6 +5,9 @@ body {
     margin: 0;
     font-weight: 100;
     padding: 0px 16px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -73,10 +76,7 @@ h3 {
     }
 }
 
-body {
-    max-width: 900px;
-    margin: auto;
-}
+
 
 nav {
     display: flex;
@@ -145,7 +145,7 @@ a {
 }
 
 main {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .project-main-video {
@@ -155,7 +155,7 @@ main {
 }
 
 .project-description {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .desc-title {
@@ -173,4 +173,13 @@ footer {
 .footer-logo {
     width: 100%;
     max-width: 900px;
+}
+
+.full-width-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 64px;
+    padding: 24px;
+    background-color: #f8f8f8
 }
